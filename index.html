@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jebena Cafe</title>
+  <link rel="icon" href="image/fav_circular.png" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!-- Swiper.js CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <span class="cafe-icon">☕</span>
+      <span class="cafe-name">Jebena Cafe</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">
+            <span class="nav-link-content">
+              <i class="fas fa-home me-1"></i>
+              <span>Home</span>
+            </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">
+            <span class="nav-link-content">
+              <i class="fas fa-info-circle me-1"></i>
+              <span>About</span>
+            </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">
+            <span class="nav-link-content">
+              <i class="fas fa-coffee me-1"></i>
+              <span>Menu</span>
+            </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#reviews">
+            <span class="nav-link-content">
+              <i class="fas fa-star me-1"></i>
+              <span>Reviews</span>
+            </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">
+            <span class="nav-link-content">
+              <i class="fas fa-envelope me-1"></i>
+              <span>Contact</span>
+            </span>
+          </a>
+        </li><br>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Cart Icon -->
+  <div id="cart-icon" class="cart-icon">
+    <i class="fas fa-shopping-bag"></i>
+    <span id="cart-count">0</span>
+  </div>
+
+
+
+<!--Hero Section -->
+<section id="home" class="hero-section">
+  <div class="hero-slideshow">
+    <div class="slide active" style="background-image: url('image/cup of latte coffee.jpg')"></div>
+    <div class="slide" style="background-image: url('image/coffee on the table.jpg')"></div>
+    <div class="slide" style="background-image: url('image/roasted coffee beans.jpg')"></div>
+  </div>
+
+  <div class="hero-content">
+    <div class="container">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="title-line">Welcome to</span>
+          <span class="title-highlight">Jebena Cafe</span>
+        </h1>
+        <p class="hero-subtitle">Brewed with <span class="love-icon">❤️</span>, Served with Warmth</p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary btn-hero">
+            <span>Order Now</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline-light btn-hero">
+            <span>Visit Us</span>
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-scroll">
+        <div class="scroll-text">Discover More</div>
+        <div class="scroll-icon"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-overlay"></div>
+</section>
+
+
+
+<!--About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="about-content p-4 p-lg-5">
+          <div class="section-tag mb-3">Our Story</div>
+          <h2 class="display-5 fw-bold mb-4">More Than Just <span class="text-highlight">Coffee</span></h2>
+
+          <div class="about-text">
+            <p class="lead">At <strong class="brand-name">Jebena Cafe</strong>, we believe in the art of brewing the
+              perfect cup of coffee.</p>
+
+            <div class="d-flex mb-4">
+              <div class="vr me-3"></div>
+              <p>Our journey began in 2020 with a simple mission: to create a cozy space where everyone feels at home.
+                From our carefully sourced beans to our warm, inviting atmosphere, every detail is crafted with love.
+              </p>
+            </div>
+
+            <div class="feature-box p-4 mb-4">
+              <p>We take pride in using 100% organic, ethically sourced coffee beans, ensuring every sip delivers a rich
+                and authentic taste. Our skilled baristas bring passion and precision to every cup, making each visit a
+                unique experience.</p>
+            </div>
+          </div>
+
+          <div class="row g-4 mb-4">
+            <div class="col-md-6">
+              <ul class="feature-list">
+                <li>
+                  <i class="fas fa-coffee feature-icon"></i>
+                  <span>Freshly brewed from premium beans</span>
+                </li>
+                <li>
+                  <i class="fas fa-mug-hot feature-icon"></i>
+                  <span>Handcrafted espresso drinks</span>
+                </li>
+                <li>
+                  <i class="fas fa-cookie feature-icon"></i>
+                  <span>Homemade pastries & snacks</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="feature-list">
+                <li>
+                  <i class="fas fa-wifi feature-icon"></i>
+                  <span>Comfortable workspace with Wi-Fi</span>
+                </li>
+                <li>
+                  <i class="fas fa-heart feature-icon"></i>
+                  <span>Community-focused environment</span>
+                </li>
+                <li>
+                  <i class="fas fa-clock feature-icon"></i>
+                  <span>Open daily 7AM - 10PM</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="hours-box p-4">
+            <h5 class="d-flex align-items-center mb-3">
+              <i class="fas fa-door-open me-2"></i>
+              <span>Our Opening Hours</span>
+            </h5>
+            <div class="hours-grid">
+              <div>Monday - Friday</div>
+              <div>7:00 AM - 10:00 PM</div>
+              <div>Saturday - Sunday</div>
+              <div>7:00 AM - 11:00 PM</div>
+            </div>
+          </div>
+
+          <a href="#menu" class="btn btn-cta mt-4">
+            <i class="fas fa-utensils me-2"></i>Explore Our Menu
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+            <div class="modern-slider-container">
+              <div class="modern-slider">
+                <div class="slider-item active" style="background-image: url('image/about1.jpg')"></div>
+                <div class="slider-item" style="background-image: url('image/about2.jpg')"></div>
+                <div class="slider-item" style="background-image: url('image/about3.jpg')"></div>
+                <div class="slider-item" style="background-image: url('image/about4.jpg')"></div>
+                <div class="slider-item" style="background-image: url('image/about5.jpg')"></div>
+              </div>
+              <div class="slider-nav">
+                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots"></div>
+                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Menu Section -->
+<section id="menu" class="py-5">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h2 class="display-4 fw-bold mb-3">Our Menu</h2>
+      <div class="divider mx-auto"></div>
+      <p class="lead">Handcrafted with passion, served with perfection</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Espresso -->
+      <div class="col-lg-4 col-md-6">
+        <div class="menu-card">
+          <div class="popular-ribbon">BESTSELLER</div>
+          <div class="menu-img-container">
+            <img src="image/espresso.jpg" class="menu-img" alt="Espresso">
+            <div class="price-badge">$3.50</div>
+          </div>
+          <div class="menu-content">
+            <div class="d-flex justify-content-between align-items-start">
+              <h3 class="menu-title">Espresso</h3>
+              <span class="menu-rating">★ ★ ★ ★ ☆</span>
+            </div>
+            <p class="menu-description">Strong, concentrated coffee served in small shots. The purest coffee experience.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="menu-calories">~10 cal</span>
+              <button class="order-btn" onclick="openOrderForm('Espresso', '$3.50')">
+                <i class="fas fa-plus me-2"></i>Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cappuccino -->
+      <div class="col-lg-4 col-md-6">
+        <div class="menu-card">
+          <div class="menu-img-container">
+            <img src="image/cappuccino.png" class="menu-img" alt="Cappuccino">
+            <div class="price-badge">$4.00</div>
+          </div>
+          <div class="menu-content">
+            <div class="d-flex justify-content-between align-items-start">
+              <h3 class="menu-title">Cappuccino</h3>
+              <span class="menu-rating">★ ★ ★ ★ ★</span>
+            </div>
+            <p class="menu-description">Perfect balance of espresso, steamed milk and silky foam. Our most popular
+              choice.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="menu-calories">~120 cal</span>
+              <button class="order-btn" onclick="openOrderForm('Cappuccino', '$4.00')">
+                <i class="fas fa-plus me-2"></i>Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Latte -->
+      <div class="col-lg-4 col-md-6">
+        <div class="menu-card">
+          <div class="popular-ribbon">BESTSELLER</div>
+          <div class="menu-img-container">
+            <img src="image/Latte.jpg" class="menu-img" alt="Latte">
+            <div class="price-badge">$4.50</div>
+          </div>
+          <div class="menu-content">
+            <div class="d-flex justify-content-between align-items-start">
+              <h3 class="menu-title">Latte</h3>
+              <span class="menu-rating">★ ★ ★ ★ ☆</span>
+            </div>
+            <p class="menu-description">Smooth espresso with steamed milk and light foam. Customize with flavors.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="menu-calories">~150 cal</span>
+              <button class="order-btn" onclick="openOrderForm('Latte', '$4.50')">
+                <i class="fas fa-plus me-2"></i>Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mocha -->
+      <div class="col-lg-4 col-md-6">
+        <div class="menu-card">
+          <div class="menu-img-container">
+            <img src="image/Mocha.jpg" class="menu-img" alt="Mocha">
+            <div class="price-badge">$5.00</div>
+          </div>
+          <div class="menu-content">
+            <div class="d-flex justify-content-between align-items-start">
+              <h3 class="menu-title">Mocha</h3>
+              <span class="menu-rating">★ ★ ★ ★ ★</span>
+            </div>
+            <p class="menu-description">Chocolate-infused espresso with steamed milk. A dessert in a cup.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="menu-calories">~250 cal</span>
+              <button class="order-btn" onclick="openOrderForm('Mocha', '$5.00')">
+                <i class="fas fa-plus me-2"></i>Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Americano -->
+      <div class="col-lg-4 col-md-6">
+        <div class="menu-card">
+          <div class="menu-img-container">
+            <img src="image/Americano.jpeg" class="menu-img" alt="Americano">
+            <div class="price-badge">$3.00</div>
+          </div>
+          <div class="menu-content">
+            <div class="d-flex justify-content-between align-items-start">
+              <h3 class="menu-title">Americano</h3>
+              <span class="menu-rating">★ ★ ★ ★ ☆</span>
+            </div>
+            <p class="menu-description">Espresso diluted with hot water for a smoother, larger drink.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="menu-calories">~15 cal</span>
+              <button class="order-btn" onclick="openOrderForm('Americano', '$3.00')">
+                <i class="fas fa-plus me-2"></i>Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Croissant -->
+      <div class="col-lg-4 col-md-6">
+        <div class="menu-card">
+          <div class="menu-img-container">
+            <img src="image/croissant.jpg" class="menu-img" alt="Croissant">
+            <div class="price-badge">$2.50</div>
+          </div>
+          <div class="menu-content">
+            <div class="d-flex justify-content-between align-items-start">
+              <h3 class="menu-title">Croissant</h3>
+              <span class="menu-rating">★ ★ ★ ★ ★</span>
+            </div>
+            <p class="menu-description">Freshly baked, buttery French croissant. Perfect with any coffee.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="menu-calories">~230 cal</span>
+              <button class="order-btn" onclick="openOrderForm('Croissant', '$2.50')">
+                <i class="fas fa-plus me-2"></i>Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Reviews Section -->
+<section id="reviews" class="reviews-section">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title">Voices of Delight</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">What Our Community Says</p>
+    </div>
+
+    <div class="swiper reviews-swiper">
+      <div class="swiper-wrapper">
+        <!-- Review 1 -->
+        <div class="swiper-slide">
+          <div class="review-card">
+            <div class="review-rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="review-content">
+              <p>"The best coffee I've ever had! The Ethiopian blend is absolutely divine."</p>
+            </div>
+            <div class="review-author">
+              <div class="author-avatar">
+                <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah J.">
+              </div>
+              <div class="author-info">
+                <h5>Sarah J.</h5>
+                <span>Regular since 2021</span>
+              </div>
+            </div>
+            <div class="review-decoration">
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="swiper-slide">
+          <div class="review-card">
+            <div class="review-rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="review-content">
+              <p>"Cozy atmosphere and friendly staff. My perfect work-from-cafe spot with reliable Wi-Fi."</p>
+            </div>
+            <div class="review-author">
+              <div class="author-avatar">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T.">
+              </div>
+              <div class="author-info">
+                <h5>Michael T.</h5>
+                <span>Visits weekly</span>
+              </div>
+            </div>
+            <div class="review-decoration">
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="swiper-slide">
+          <div class="review-card">
+            <div class="review-rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="review-content">
+              <p>"Highly recommend the cappuccino! The baristas are true artists with their latte art."</p>
+            </div>
+            <div class="review-author">
+              <div class="author-avatar">
+                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Priya K.">
+              </div>
+              <div class="author-info">
+                <h5>Priya K.</h5>
+                <span>First visited last month</span>
+              </div>
+            </div>
+            <div class="review-decoration">
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Floating Coffee Elements -->
+    <div class="floating-coffee-beans">
+      <div class="coffee-bean"></div>
+      <div class="coffee-bean"></div>
+      <div class="coffee-bean"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!--  Contact Section with Video Background -->
+
+<section id="contact" class="contact-section">
+  <div class="contact-video-bg">
+    <video autoplay muted loop playsinline>
+      <source src="image/coffeevideo.webm" type="video/webm">
+      <!-- Fallback image if video doesn't load -->
+      <img src="image/coffee-fallback.jpg" alt="Coffee background">
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+
+  <div class="container">
+    <div class="contact-wrapper">
+      <div class="contact-header text-center">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">We'd love to hear from you</p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-form-container">
+          <form id="contactForm" class="modern-form">
+            <div class="form-group floating-label">
+              <input type="text" id="contactName" name="name" required>
+              <label for="contactName">Your Name</label>
+              <div class="underline"></div>
+            </div>
+
+            <div class="form-group floating-label">
+              <input type="email" id="contactEmail" name="email" required>
+              <label for="contactEmail">Your Email</label>
+              <div class="underline"></div>
+            </div>
+
+            <div class="form-group floating-label">
+              <textarea id="contactMessage" name="message" rows="4" required></textarea>
+              <label for="contactMessage">Your Message</label>
+              <div class="underline"></div>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-social">
+          <div class="social-card">
+            <h3 class="social-title">Connect With Us</h3>
+            <div class="social-links">
+              <a href="https://www.instagram.com/@tesfab94" target="_blank" class="social-link instagram">
+                <div class="social-icon">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <span>Instagram</span>
+              </a>
+
+              <a href="https://www.facebook.com/@tesfab94" target="_blank" class="social-link facebook">
+                <div class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <span>Facebook</span>
+              </a>
+
+              <a href="https://www.tiktok.com/@tesfab94" target="_blank" class="social-link tiktok">
+                <div class="social-icon">
+                  <i class="fab fa-tiktok"></i>
+                </div>
+                <span>TikTok</span>
+              </a>
+
+              <a href="https://www.google.com/maps?q=37.816279742021665,-122.423246" target="_blank"
+                class="social-link location">
+                <div class="social-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <span>Our Location</span>
+              </a>
+            </div>
+
+            <div class="contact-info">
+              <div class="info-item">
+                <i class="fas fa-phone-alt"></i>
+                <span>+1 (555) 123-4567</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <span>contact@jebenacafe.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+
+  <footer class="site-footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+          opacity=".25" fill="#1a1a1a"></path>
+        <path
+          d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+          opacity=".5" fill="#1a1a1a"></path>
+        <path
+          d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+          fill="#1a1a1a"></path>
+      </svg>
+    </div>
+  
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="logo-icon">☕</span>
+        <span class="logo-text">Jebena Cafe</span>
+      </div>
+  
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+  
+      <div class="footer-social">
+        <a href="#" class="social-icon" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="social-icon" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="social-icon" aria-label="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="#" class="social-icon" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+  
+      <div class="footer-newsletter">
+        <p>Subscribe to our newsletter</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+  
+      <div class="footer-bottom">
+        <p>&copy; 2023 Jebena Cafe. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Careers</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-decoration">
+      <div class="coffee-bean"></div>
+      <div class="coffee-bean"></div>
+      <div class="coffee-bean"></div>
+    </div>
+    </footer>
+    
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Swiper.js JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<!-- Config (MUST come before script.js) -->
+<script src="config.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
